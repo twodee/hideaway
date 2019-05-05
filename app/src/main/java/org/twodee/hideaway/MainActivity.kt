@@ -46,7 +46,7 @@ class MainActivity : PermittedActivity(), OnMapReadyCallback {
     requestPermissions(permissions, 100, {
       promptForGPS()
     }, {
-      Toast.makeText(this, "GPS not permitted. Unable to unlock hidden messages.", Toast.LENGTH_LONG).show()
+      Toast.makeText(this, "GPS not permitted. You will not be able to unlock hidden messages.", Toast.LENGTH_LONG).show()
     })
   }
 
@@ -54,7 +54,7 @@ class MainActivity : PermittedActivity(), OnMapReadyCallback {
     val locationManager = getSystemService(Context.LOCATION_SERVICE) as LocationManager
     if (!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
       AlertDialog.Builder(this).apply {
-        setMessage("GPS is not enabled on your device. Enable it in the location settings to unlock hidden messages.")
+        setMessage("GPS is not enabled on your device. Enable it in the location settings.")
         setPositiveButton("Settings") { _, _ ->
           startActivity(Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS))
         }
