@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/unlockButton"
+    android:icon="@drawable/unlock"
+    android:title="Unlock"
+    app:showAsAction="always" />
+  <item
+    android:id="@+id/clearHiddenButton"
+    android:title="Clear hidden"
+    app:showAsAction="never" />
+  <item
+    android:id="@+id/clearGuessesButton"
+    android:title="Clear guesses" />
+</menu>
