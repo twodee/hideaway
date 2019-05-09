@@ -1,4 +1,4 @@
-package org.twodee.rattler
+package org.twodee.hideaway
 
 import android.app.AlertDialog
 import android.content.Intent
