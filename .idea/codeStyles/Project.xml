@@ -14,6 +14,11 @@
           <option name="INSERT_LINE_BREAK_BEFORE_NAMESPACE_DECLARATION" value="true" />
         </value>
       </option>
+      <option name="OTHER_SETTINGS">
+        <value>
+          <option name="INSERT_LINE_BREAK_BEFORE_NAMESPACE_DECLARATION" value="true" />
+        </value>
+      </option>
     </AndroidXmlCodeStyleSettings>
     <JavaCodeStyleSettings>
       <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
@@ -205,7 +210,6 @@
     </codeStyleSettings>
     <codeStyleSettings language="kotlin">
       <option name="RIGHT_MARGIN" value="0" />
-      <option name="KEEP_LINE_BREAKS" value="false" />
       <indentOptions>
         <option name="INDENT_SIZE" value="2" />
         <option name="CONTINUATION_INDENT_SIZE" value="2" />
